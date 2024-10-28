@@ -29,7 +29,7 @@ SELECT *
 FROM TIL_PLAYGROUND.PREPPIN_DATA_INPUTS.PD2023_WK11_DSB_CUSTOMER_LOCATIONS
 CROSS JOIN TIL_PLAYGROUND.PREPPIN_DATA_INPUTS.PD2023_WK11_DSB_BRANCHES --Cross join since there is no common field
 )
---3963 * acos((sin(lat1) * sin(lat2)) + cos(lat1) * cos(lat2) * cos(long2 – long1))
+--3963 * acos((sin(lat1) * sin(lat2)) + cos(lat1) * cos(lat2) * cos(long2 – long1)) Distance Formula
 ,
 FINAL_TABLE AS
 (
